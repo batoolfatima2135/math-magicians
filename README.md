@@ -52,6 +52,7 @@ Read a random math-related quote.
 ### Key Features <a name="key-features"></a>
 
 - React Setup
+- Calculator UI
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
