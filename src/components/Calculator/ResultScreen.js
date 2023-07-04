@@ -2,13 +2,21 @@
 import PropTypes from 'prop-types';
 
 function ResultScreen(props) {
-  const { answere } = props;
+  const { next, operation, total } = props;
   return (
     <div className="row">
-      <div className="col-12 bg-secondary text-light py-3 text-end">{answere}</div>
+      <div className="col-12 bg-secondary text-light py-3 text-end">{ next || operation || total || 0 }</div>
     </div>
   );
 }
-ResultScreen.propTypes = { answere: PropTypes.number };
-ResultScreen.defaultProps = { answere: 0 };
+ResultScreen.propTypes = {
+  next: PropTypes.string,
+  operation: PropTypes.string,
+  total: PropTypes.string,
+};
+ResultScreen.defaultProps = {
+  next: null,
+  operation: null,
+  total: null,
+};
 export default ResultScreen;

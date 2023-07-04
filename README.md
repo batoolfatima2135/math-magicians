@@ -53,6 +53,7 @@ Read a random math-related quote.
 
 - React Setup
 - Calculator UI
+- Working Calculator
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -60,7 +61,7 @@ Read a random math-related quote.
 <!-- LIVE DEMO -->
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- Coming Soon
+-  [Live Demo Link](https://github.com/batoolfatima2135/math-magicians.git/dist/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -123,7 +124,6 @@ You can deploy this project using: GitHub Pages
 
 
 - [ ] Homepage
-- [ ] Calculator 
 - [ ] Quote Page
 
 
