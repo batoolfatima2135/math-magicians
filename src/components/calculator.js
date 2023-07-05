@@ -14,17 +14,15 @@ function Calculator() {
     setCalculatorData(newState);
   };
   return (
-    <div className="row justify-content-center mt-5">
-      <div className="col-lg-5 col-md-10 col-11 mt-5">
-        <ResultScreen
-          next={calculatorData.next}
-          operation={calculatorData.operation}
-          total={calculatorData.total}
-        />
-        <RowCalculator items={['AC', '+/-', '%', '\u00F7', '7', '8', '9', 'x', '4', '5', '6', '-', '1', '2', '3', '+']} state={calculatorData} updateState={updateState} />
-        <EndRow items={['0', '.', '=']} state={calculatorData} updateState={updateState} />
+    <div className="col-lg-5 col-md-6 col-6 mt-5">
+      <ResultScreen
+        next={calculatorData.next}
+        operation={calculatorData.operation}
+        total={calculatorData.total}
+      />
+      <RowCalculator items={['AC', '+/-', '%', '\u00F7', '7', '8', '9', 'x', '4', '5', '6', '-', '1', '2', '3', '+']} state={calculatorData} updateState={updateState} />
+      <EndRow items={['0', '.', '=']} state={calculatorData} updateState={updateState} />
 
-      </div>
     </div>
   );
 }
