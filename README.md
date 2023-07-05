@@ -54,6 +54,7 @@ Read a random math-related quote.
 - React Setup
 - Calculator UI
 - Working Calculator
+- Qoutes display
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
