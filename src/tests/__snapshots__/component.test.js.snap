@@ -1,0 +1,284 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Jest snapshots to test the components. Calculator component renders correctly 1`] = `
+<div
+  className="row justify-content-center"
+>
+  <div
+    className="col-lg-4 col-md-6 col-6 mt-5"
+  >
+    <h3
+      className="my-2 text-success"
+    >
+      Lets do some maths!
+    </h3>
+  </div>
+  <div
+    className="col-lg-6 col-md-6 col-6 mt-5 border border-5 border-success"
+  >
+    <div
+      className="row"
+    >
+      <div
+        className="col-12 bg-success text-light py-3 text-end fw-bold"
+      >
+        0
+      </div>
+    </div>
+    <div
+      className="row"
+    >
+      <button
+        className="col-3 button text-center fw-bold py-3 border "
+        onClick={[Function]}
+        type="button"
+      >
+        AC
+      </button>
+      <button
+        className="col-3 button text-center fw-bold py-3 border "
+        onClick={[Function]}
+        type="button"
+      >
+        +/-
+      </button>
+      <button
+        className="col-3 button text-center fw-bold py-3 border "
+        onClick={[Function]}
+        type="button"
+      >
+        %
+      </button>
+      <button
+        className="col-3 button text-center fw-bold py-3 border last-item"
+        onClick={[Function]}
+        type="button"
+      >
+        ÷
+      </button>
+      <button
+        className="col-3 button text-center fw-bold py-3 border "
+        onClick={[Function]}
+        type="button"
+      >
+        7
+      </button>
+      <button
+        className="col-3 button text-center fw-bold py-3 border "
+        onClick={[Function]}
+        type="button"
+      >
+        8
+      </button>
+      <button
+        className="col-3 button text-center fw-bold py-3 border "
+        onClick={[Function]}
+        type="button"
+      >
+        9
+      </button>
+      <button
+        className="col-3 button text-center fw-bold py-3 border last-item"
+        onClick={[Function]}
+        type="button"
+      >
+        x
+      </button>
+      <button
+        className="col-3 button text-center fw-bold py-3 border "
+        onClick={[Function]}
+        type="button"
+      >
+        4
+      </button>
+      <button
+        className="col-3 button text-center fw-bold py-3 border "
+        onClick={[Function]}
+        type="button"
+      >
+        5
+      </button>
+      <button
+        className="col-3 button text-center fw-bold py-3 border "
+        onClick={[Function]}
+        type="button"
+      >
+        6
+      </button>
+      <button
+        className="col-3 button text-center fw-bold py-3 border last-item"
+        onClick={[Function]}
+        type="button"
+      >
+        -
+      </button>
+      <button
+        className="col-3 button text-center fw-bold py-3 border "
+        onClick={[Function]}
+        type="button"
+      >
+        1
+      </button>
+      <button
+        className="col-3 button text-center fw-bold py-3 border "
+        onClick={[Function]}
+        type="button"
+      >
+        2
+      </button>
+      <button
+        className="col-3 button text-center fw-bold py-3 border "
+        onClick={[Function]}
+        type="button"
+      >
+        3
+      </button>
+      <button
+        className="col-3 button text-center fw-bold py-3 border last-item"
+        onClick={[Function]}
+        type="button"
+      >
+        +
+      </button>
+    </div>
+    <div
+      className="row"
+    >
+      <button
+        className="col-6 button fw-bold text-center py-3 border"
+        onClick={[Function]}
+        type="button"
+      >
+        0
+      </button>
+      <button
+        className="col-3 button fw-bold  text-center py-3 border"
+        onClick={[Function]}
+        type="button"
+      >
+        .
+      </button>
+      <button
+        className="col-3 text-center fw-bold  py-3 border last-item"
+        onClick={[Function]}
+        type="button"
+      >
+        =
+      </button>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Jest snapshots to test the components. EndRow component renders correctly 1`] = `
+<div
+  className="row"
+>
+  <button
+    className="col-6 button fw-bold text-center py-3 border"
+    onClick={[Function]}
+    type="button"
+  >
+    1
+  </button>
+  <button
+    className="col-3 button fw-bold  text-center py-3 border"
+    onClick={[Function]}
+    type="button"
+  >
+    2
+  </button>
+  <button
+    className="col-3 text-center fw-bold  py-3 border last-item"
+    onClick={[Function]}
+    type="button"
+  >
+    3
+  </button>
+</div>
+`;
+
+exports[`Jest snapshots to test the components. Home component renders correctly 1`] = `
+<div
+  className="px-2"
+>
+  <h2
+    className="py-4 text-success"
+  >
+    Welcome to our Page!
+  </h2>
+  <p>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit.Officia quaerat soluta aliquam veritatis recusandae, reiciendis quo ullam cum non molestias voluptates saepe at nisi earum, et reprehenderit porro magnam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis facere consectetur minus. Laborum ex blanditiis illo nobis, reprehenderit porro! Nemo ipsum vero quos sed! Ea quidem suscipit quisquam blanditiis distinctio. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit a blanditiis ipsa cumque soluta vitae doloribus ipsum! Laudantium hic voluptas iusto aliquam odio, doloremque ipsam alias quasi! Praesentium, qui explicabo. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit a blanditiis ipsa cumque soluta vitae doloribus ipsum! Laudantium hic voluptas iusto aliquam odio, doloremque ipsam alias quasi! Praesentium, qui explicabo.
+  </p>
+  <p>
+    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Temporibus placeat, veritatis omnis, laborum magnam quia, ex nisi est vero saepe porro? Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita, aut incidunt molestiae hic natus officiis alias sint placeat aperi ea dolor et exercitationem quo tempore quas eligendi qui vero deserunt! Blanditiis, accusantium. Mollitia alias, dolor reiciendis accusantium saepe amet! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit a blanditiis ipsa cumque soluta vitae doloribus ipsum! Laudantium hic voluptas iusto aliquam odio, doloremque ipsam alias quasi! Praesentium, qui explicabo. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit a blanditiis ipsa cumque soluta vitae doloribus ipsum! Laudantium hic voluptas iusto aliquam odio, doloremque ipsam alias quasi! Praesentium, qui explicabo.
+  </p>
+</div>
+`;
+
+exports[`Jest snapshots to test the components. Quote component renders correctly 1`] = `
+<div
+  className="container"
+>
+  <div
+    className="row justify-content-center align-items-center"
+    style={
+      Object {
+        "height": "500px",
+      }
+    }
+  >
+    <div
+      className="col-12 align-self-center text-center"
+    >
+      <q
+        className="h3"
+      >
+        <b>
+          new
+        </b>
+      </q>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Jest snapshots to test the components. ResultScreen component renders correctly 1`] = `
+<div
+  className="row"
+>
+  <div
+    className="col-12 bg-success text-light py-3 text-end fw-bold"
+  >
+    0
+  </div>
+</div>
+`;
+
+exports[`Jest snapshots to test the components. RowCalculator component renders correctly 1`] = `
+<div
+  className="row"
+>
+  <button
+    className="col-3 button text-center fw-bold py-3 border "
+    onClick={[Function]}
+    type="button"
+  >
+    1
+  </button>
+  <button
+    className="col-3 button text-center fw-bold py-3 border "
+    onClick={[Function]}
+    type="button"
+  >
+    2
+  </button>
+  <button
+    className="col-3 button text-center fw-bold py-3 border "
+    onClick={[Function]}
+    type="button"
+  >
+    3
+  </button>
+</div>
+`;
