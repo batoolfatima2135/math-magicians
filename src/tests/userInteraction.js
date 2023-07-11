@@ -1,5 +1,5 @@
+/* eslint-disable import/no-extraneous-dependencies */
 import { render, fireEvent } from '@testing-library/react';
-// eslint-disable-next-line import/no-extraneous-dependencies
 import renderer from 'react-test-renderer';
 import RowCalculator from '../components/Calculator/RowCalculator';
 import ResultScreen from '../components/Calculator/ResultScreen';
