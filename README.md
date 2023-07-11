@@ -51,10 +51,10 @@ Read a random math-related quote.
 
 ### Key Features <a name="key-features"></a>
 
-- React Setup
-- Calculator UI
+- Homepage
+- Calculator Page
 - Working Calculator
-- Qoutes display
+- Qoutes Page
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -124,8 +124,8 @@ You can deploy this project using: GitHub Pages
 ## 🔭 Future Features <a name="future-features"></a>
 
 
-- [ ] Homepage
-- [ ] Quote Page
+- [ ] More Pages
+- [ ] More Styles
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
