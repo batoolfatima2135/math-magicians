@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`updates state on button click and show in ResultScreen 1`] = `
+<div
+  className="row"
+>
+  <div
+    className="col-12 bg-success text-light py-3 text-end fw-bold"
+  >
+    0
+  </div>
+</div>
+`;
