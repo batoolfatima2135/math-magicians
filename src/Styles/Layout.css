@@ -1,0 +1,23 @@
+.title {
+  text-decoration: none;
+  color: white;
+}
+
+.nav-item {
+  border-right: 1px solid white;
+}
+
+.nav-link {
+  color: white;
+  text-decoration: underline;
+  font-weight: 600;
+  font-size: large;
+}
+
+.nav-link:hover {
+  color: rgb(209, 209, 209);
+}
+
+.active {
+  color: rgb(209, 209, 209) !important;
+}

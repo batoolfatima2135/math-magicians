@@ -34,11 +34,15 @@ function Quotes() {
     };
   }, []);
   return (
-    <div className="col-lg-5 col-md-6 col-6 mt-5 align-self-center text-center">
-      <h1 className="text-success">Quote</h1>
-      {hasError && <div>Something went wrong!</div>}
-      {isLoading ? <div className="text-success">Loading...</div> : <q><b>{fetchQuote}</b></q>}
+    <div className="container">
+      <div className="row justify-content-center align-items-center" style={{ height: '500px' }}>
+        <div className="col-12 align-self-center text-center">
+          {hasError && <div>Something went wrong!</div>}
+          {isLoading ? <div className="text-success">Loading...</div> : <q className="h3"><b>{fetchQuote}</b></q>}
+        </div>
+      </div>
     </div>
+
   );
 }
 export default Quotes;

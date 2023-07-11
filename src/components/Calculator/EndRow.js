@@ -10,9 +10,9 @@ function EndRow(props) {
   };
   return (
     <div className="row">
-      <button type="button" key={items[0]} onClick={getdata} className="col-6 button text-center py-3 border">{ items[0] }</button>
-      <button type="button" key={items[1]} onClick={getdata} className="col-3 button  text-center py-3 border">{ items[1] }</button>
-      <button type="button" key={items[2]} onClick={getdata} className="col-3 text-center py-3 border last-item">{ items[2] }</button>
+      <button type="button" key={items[0]} onClick={getdata} className="col-6 button fw-bold text-center py-3 border">{ items[0] }</button>
+      <button type="button" key={items[1]} onClick={getdata} className="col-3 button fw-bold  text-center py-3 border">{ items[1] }</button>
+      <button type="button" key={items[2]} onClick={getdata} className="col-3 text-center fw-bold  py-3 border last-item">{ items[2] }</button>
 
     </div>
   );
