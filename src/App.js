@@ -1,16 +1,23 @@
-// eslint-disable-next-line import/no-extraneous-dependencies
 import 'bootstrap/dist/css/bootstrap.css';
-import Calculator from './components/calculator';
-import Quotes from './components/quote';
+// eslint-disable-next-line import/no-extraneous-dependencies
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import Home from './Routes/Home';
+import Calculator from './Routes/Calculator';
+import Quotes from './Routes/Quote';
+import Layout from './Routes/Layout';
 
 function App() {
   return (
-    <div className="App">
-      <div className="row justify-content-center mt-5">
-        <Calculator />
-        <Quotes />
-      </div>
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Layout />}>
+          <Route index element={<Home />} />
+          <Route path="calculator" element={<Calculator />} />
+          <Route path="qoute" element={<Quotes />} />
+          <Route path="*" element={<div>If page not found it goes here</div>} />
+        </Route>
+      </Routes>
+    </BrowserRouter>
   );
 }
 
