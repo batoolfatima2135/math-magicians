@@ -36,4 +36,37 @@ describe('calculate', () => {
       operation: null,
     });
   });
+
+  test('Change sign', () => {
+    const result = calculate({ total: '5', next: null, operation: null }, '+/-');
+    expect(result).toEqual({
+      total: '-5',
+      next: null,
+      operation: null,
+    });
+  });
+  test('Change sign of next', () => {
+    const result = calculate({ total: '5', next: '8', operation: '+' }, '+/-');
+    expect(result).toEqual({
+      total: '5',
+      next: '-8',
+      operation: '+',
+    });
+  });
+  test('pressed an operation after pressing =', () => {
+    const result = calculate({ total: '5', next: null, operation: null }, '+');
+    expect(result).toEqual({
+      total: '5',
+      next: null,
+      operation: '+',
+    });
+  });
+  test('pressed an operation button and there is an existing operation', () => {
+    const result = calculate({ total: '5', next: null, operation: '-' }, '+');
+    expect(result).toEqual({
+      total: '5',
+      next: null,
+      operation: '+',
+    });
+  });
 });
