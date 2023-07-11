@@ -4,6 +4,9 @@ import renderer from 'react-test-renderer';
 import Quotes from '../Routes/Quote';
 import Home from '../Routes/Home';
 import Calculator from '../Routes/Calculator';
+import EndRow from '../components/Calculator/EndRow';
+import ResultScreen from '../components/Calculator/ResultScreen';
+import RowCalculator from '../components/Calculator/RowCalculator';
 
 describe('Jest snapshots to test the components.', () => {
   test('Quote component renders correctly', () => {
