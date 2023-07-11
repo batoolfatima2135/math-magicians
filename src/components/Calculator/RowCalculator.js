@@ -11,7 +11,7 @@ function RowCalculator(props) {
   return (
     <div className="row">
       { items.map((item, index) => (
-        <button type="button" key={item} onClick={getdata} className={`col-3 button text-center py-3 border ${index % 4 === 3 ? 'last-item' : ''}`}>{item}</button>
+        <button type="button" key={item} onClick={getdata} className={`col-3 button text-center fw-bold py-3 border ${index % 4 === 3 ? 'last-item' : ''}`}>{item}</button>
       ))}
     </div>
   );
